@@ -1,0 +1,24 @@
+{
+    "name": "mehedimi/new-instance",
+    "description": "A package to chain class method with out storing a variable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehedi Hasan",
+            "email": "mehedihasansabbirmi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mehedi\\NewInstance\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mehedi\\NewInstance\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
