@@ -59,7 +59,7 @@ class NewInstanceTest extends TestCase
     /**
     * @test
     **/
-    function it_can_make_a_singletone_instance()
+    function it_can_make_a_singleton_instance()
     {
         $instance1 = Post::newSingleInstance();
         $instance2 = Post::newSingleInstance();

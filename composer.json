@@ -1,6 +1,8 @@
 {
     "name": "mehedimi/new-instance",
+    "version": "1.0",
     "description": "A package to chain class method with out storing a variable",
+    "keywords": ["single instance", "new instance", "php"],
     "license": "MIT",
     "authors": [
         {
